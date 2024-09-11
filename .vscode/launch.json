@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Odoocker Debugger",
+            "type": "python",
+            "request": "attach",
+            "host": "localhost",
+            "port": 8069,
+            "debugServer": 8070,
+            "justMyCode": false,
+            "pathMappings": [
+                {
+                    "localRoot": "${workspaceFolder}/odoo",
+                    "remoteRoot": "/usr/lib/python3/dist-packages/odoo"
+                }
+            ]
+        }
+    ]
+}
